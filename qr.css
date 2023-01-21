@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Fira+Sans+Condensed:wght@500&family=Nunito+Sans&family=Open+Sans&family=Outfit&display=swap');
+
+:root{
+    --var-color-light: hsl(0, 0%, 100%);
+    --var-color-medium-dark: hsl(212, 45%, 89%);
+    --var-color-blue: hsl(220, 15%, 55%);
+    --var-color-dark: hsl(218, 44%, 22%);
+    --font-size-normal: 15px;
+    --font-size-large: 1.5rem;
+    --var-font-normal: 'Outfit', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--var-font-normal);
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--var-color-medium-dark);
+    padding: 30px;
+}
+
+.inside-container{
+    width: 350px;
+    text-align: center;
+    background-color: var(--var-color-light);
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+
+.inside-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.desc{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.desc h1{
+    color: var(--var-color-dark);
+    font-weight: 700;
+    font-size: var(--font-size-large);
+}
+
+.desc p{
+    color: var(--var-color-blue);
+    font-weight: 400;
+    font-size: var(--font-size-normal);
+}
+
+@media screen and (max-width: 375px) {
+
+}
